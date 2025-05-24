@@ -20,7 +20,7 @@ export default function HeroQuiz() {
         <div className="lg:w-1/3 relative">
           <div className="overflow-hidden rounded-b-[200px]">
             <img
-              src="src\assets\image\Hero.jpg"
+              src="img\Hero.jpg"
               alt="Hotel Room"
               className="w-full h-auto object-coverr"
             />

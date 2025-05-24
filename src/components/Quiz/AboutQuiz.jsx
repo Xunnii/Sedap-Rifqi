@@ -5,7 +5,7 @@ export default function AboutQuiz() {
         {/* Image Section */}
         <div>
           <img
-            src="src\assets\image\restoran.jpg"
+            src="img\restoran.jpg"
             alt="About Us"
             className="w-full h-100 object-cover rounded-xl"
           />
