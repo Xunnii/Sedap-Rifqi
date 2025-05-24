@@ -1,0 +1,61 @@
+// App.js
+import "./assets/tailwind.css";
+import React, { Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+import Loading from "./components/Loading"; // pastikan file ini ada
+import RewardChecker from "./components/RewardChecker";
+import OrderStatus from "./components/OrderStatus";
+import MemberCek from "./components/membercek";
+import ProductChecker from "./components/Produk";
+import QuizHomepage from "./pages/QuizHomepage";
+import GuestLayout from "./layouts/GuestLayout";
+import { WiDayHail } from "react-icons/wi";
+
+
+// Lazy-loaded layouts
+const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
+const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"));
+
+// Lazy-loaded pages
+const Dashboard = React.lazy(() => import("./pages/Dashboard"));
+const Orders = React.lazy(() => import("./pages/Orders"));
+const Customers = React.lazy(() => import("./pages/Customers"));
+const NotFound = React.lazy(() => import("./pages/NotFound"));
+
+// Lazy-loaded auth pages
+const Login = React.lazy(() => import("./pages/Auth/Login"));
+const Register = React.lazy(() => import("./pages/Auth/Register"));
+const Forgot = React.lazy(() => import("./pages/Auth/Forgot"));
+
+export default function App() {
+  return (
+    <Suspense fallback={<Loading />}>
+      <Routes>
+        <Route path="/admin" element={<MainLayout />}>
+          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="orders" element={<Orders />} />
+          <Route path="customers" element={<Customers />} />
+          <Route path="reward" element={<RewardChecker />} />
+          <Route path="orderstatus" element={<OrderStatus />} />
+          <Route path="membercek" element={<MemberCek />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
+        {/* <Route path="produk" element={<ProductChecker />} /> */}
+
+        {/* GuestLayout */}
+        <Route path="" element={<GuestLayout />}>
+          <Route index element={<QuizHomepage />} />
+          <Route path="/" element={<QuizHomepage />} />
+          <Route path="/produk" element={<ProductChecker />} />
+        </Route>
+
+        {/* AuthLayout */}
+        <Route element={<AuthLayout />}>
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/forgot" element={<Forgot />} />
+        </Route>
+      </Routes>
+    </Suspense>
+  );
+}

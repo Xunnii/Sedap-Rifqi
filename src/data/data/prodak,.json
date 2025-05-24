@@ -1,0 +1,32 @@
+[
+    {
+        "kode_produk": "PRD1",
+        "nama_produk": "minyak sayur",
+        "harga": 10000,
+        "stok": 122
+    },
+    {
+        "kode_produk": "PRD2",
+        "nama_produk": "Sayur mayur",
+        "harga": 11000,
+        "stok": 134
+    },
+    {
+        "kode_produk": "PRD3",
+        "nama_produk": "Ayam fillet",
+        "harga": 90000,
+        "stok": 200
+    },
+    {
+        "kode_produk": "PRD4",
+        "nama_produk": "Daging Macan",
+        "harga": 1200000,
+        "stok": 4
+    },
+    {
+        "kode_produk": "PRD5",
+        "nama_produk": "Kerbau Himalaya",
+        "harga": 90000000000,
+        "stok": 2
+    }
+]

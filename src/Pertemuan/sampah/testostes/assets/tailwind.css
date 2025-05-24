@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url(./fonts/Nunito-Regular.ttf);
+}
+
+@theme {
+  --font-barlow: "Barlow", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-poppins-ExtraBold: "Poppins-ExtraBold", sans-serif;
+  --font-nunito: "Nunito-Regular", sans-serif;
+  --color-latar: #f3f4f6;
+  --color-teks: #374151;
+  --color-teks-samping: #6b7280;
+  --color-garis: #e5e7eb;
+  --color-hijau: #4880FF;
+  --color-merah: #ef4444;
+  --color-biru: #3b82f6;
+  --color-kuning: #f59e0b;
+  --color-main: #4880FF;
+  --color-putih: #ffffff;
+}

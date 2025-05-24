@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Elezabeth Marvel",
+    "position": "Photographer",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adiping elit, do eiusmod tempor incididunt ut labore et doliore magna aliqjtua. Quis ipsum suspendisse ultrices gravida. Risus commodo maepac cenas.",
+    "image": "https://avatar.iran.liara.run/public",
+    "color": "#ff6666"
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "position": "Web Developer",
+    "quote": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    "image": "https://avatar.iran.liara.run/public",
+    "color": "#66a3ff"
+  },
+  {
+    "id": 3,
+    "name": "Sarah Johnson",
+    "position": "Marketing Director",
+    "quote": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.",
+    "image": "https://avatar.iran.liara.run/public",
+    "color": "#66cc99"
+  },
+  {
+    "id": 4,
+    "name": "Michael Rodriguez",
+    "position": "UX Designer",
+    "quote": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+    "image": "https://avatar.iran.liara.run/public",
+    "color": "#e699ff"
+  },
+  {
+    "id": 5,
+    "name": "Emma Wilson",
+    "position": "Content Strategist",
+    "quote": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+    "image": "https://avatar.iran.liara.run/public/boy",
+    "color": "#ff9966"
+  }
+]

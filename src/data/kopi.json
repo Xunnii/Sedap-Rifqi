@@ -1,0 +1,44 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Bubur Ayam Rakyat Ponorogo",
+      "location": "ponorogo",
+      "image": "../src/assets/Image/buburAyam.jpg",
+      "price": 200,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Latte Coffee",
+      "location": "Avenue Bar",
+      "image": "../src/assets/image/latte.jpeg",
+      "price": 250,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Pizza Na Maliano",
+      "location": "Milan, Italia",
+      "image": "../src/assets/Image/pizza.jpg",
+      "price": 200,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "Croissant Le Parfait",
+      "location": "Paris, France",
+      "image": "../src/assets/Image/sourdough.jpg",
+      "price": 250,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": false
+    }
+  ]
+}

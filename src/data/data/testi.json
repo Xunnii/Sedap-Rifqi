@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "nama": "minyak sayur",
+        "avatar": "https://avatar.iran.liara.run/public/7",
+        "ulasan": "Makasimas"
+    },
+    {
+        "id": "2",
+        "nama": "minyak sayur",
+        "avatar": "https://avatar.iran.liara.run/public/11",
+        "ulasan": "Keren mas"
+    },
+    {
+        "id": "3",
+        "nama": "minyak sayur",
+        "avatar": "https://avatar.iran.liara.run/public/18",
+        "ulasan": "semangat"
+    },
+    {
+        "id": "4",
+        "nama": "minyak sayur",
+        "avatar": "https://avatar.iran.liara.run/public/22",
+        "ulasan": "jangan mudnreu"
+    },
+    {
+        "id": "5",
+        "nama": "minyak sayur",
+        "avatar": "https://avatar.iran.liara.run/public/15",
+        "ulasan": "terus maju"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "nama": "Budi Santoso",
+        "nomor_hp": "081234567890",
+        "poin": 1500,
+        "status_member": "Gold"
+    },
+    {
+        "nama": "Ani Lestari",
+        "nomor_hp": "9999999999",
+        "poin": 750,
+        "status_member": "Silver"
+    },
+    {
+        "nama": "Citra Dewi",
+        "nomor_hp": "083456789012",
+        "poin": 250,
+        "status_member": "Bronze"
+    },
+    {
+        "nama": "Dodi Pratama",
+        "nomor_hp": "084567890123",
+        "poin": 50,
+        "status_member": "Basic"
+    },
+    {
+        "nama": "Eka Wulandari",
+        "nomor_hp": "085678901234",
+        "poin": 2000,
+        "status_member": "Platinum"
+    }
+]

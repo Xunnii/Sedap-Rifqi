@@ -1,0 +1,44 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Luxery Hotel and Resort",
+      "location": "Vietnam Sea Beach",
+      "image": "../src/assets/Image_produk/4 (1).jpg",
+      "price": 200,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "The Dreamy Mountain Hotel & Resort",
+      "location": "Paris, France",
+      "image": "../src/assets/Image_produk/3.jpg",
+      "price": 250,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Sea Of Stars Resident In Maldives",
+      "location": "Vaadhoo, Maldives",
+      "image": "../src/assets/Image_produk/5.jpg",
+      "price": 200,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "The Paris Grand Palace & Resturent",
+      "location": "Paris, France",
+      "image": "../src/assets/Image_produk/2.jpg",
+      "price": 250,
+      "rating": 4.5,
+      "reviews": 45,
+      "featured": false
+    }
+  ]
+}

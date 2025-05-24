@@ -1,0 +1,32 @@
+[
+    {
+        "kode_produk": "PRD001",
+        "nama_produk": "Minyak Goreng 1L",
+        "harga": 18000,
+        "stok": 12
+    },
+    {
+        "kode_produk": "PRD002",
+        "nama_produk": "Beras Premium 5kg",
+        "harga": 68000,
+        "stok": 0
+    },
+    {
+        "kode_produk": "PRD003",
+        "nama_produk": "Gula Pasir 1kg",
+        "harga": 13500,
+        "stok": 20
+    },
+    {
+        "kode_produk": "PRD004",
+        "nama_produk": "Sabun Mandi",
+        "harga": 6500,
+        "stok": 7
+    },
+    {
+        "kode_produk": "PRD005",
+        "nama_produk": "Susu Kental Manis",
+        "harga": 12000,
+        "stok": 0
+    }
+]
