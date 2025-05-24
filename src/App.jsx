@@ -2,15 +2,14 @@
 import "./assets/tailwind.css";
 import React, { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-import Loading from "./components/Loading"; // pastikan file ini ada
-import RewardChecker from "./components/RewardChecker";
+import Loading from "./components/Loading";
 import OrderStatus from "./components/OrderStatus";
-import MemberCek from "./components/membercek";
 import ProductChecker from "./components/Produk";
 import QuizHomepage from "./pages/QuizHomepage";
 import GuestLayout from "./layouts/GuestLayout";
-import { WiDayHail } from "react-icons/wi";
 
+// Uncomment jika ingin menggunakan MemberCek
+// import MemberCek from "./components/membercek";
 
 // Lazy-loaded layouts
 const MainLayout = React.lazy(() => import("./layouts/MainLayout"));
@@ -35,12 +34,11 @@ export default function App() {
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
-          <Route path="reward" element={<RewardChecker />} />
           <Route path="orderstatus" element={<OrderStatus />} />
-          <Route path="membercek" element={<MemberCek />} />
+          {/* Uncomment jika sudah import MemberCek */}
+          {/* <Route path="membercek" element={<MemberCek />} /> */}
         </Route>
         <Route path="*" element={<NotFound />} />
-        {/* <Route path="produk" element={<ProductChecker />} /> */}
 
         {/* GuestLayout */}
         <Route path="" element={<GuestLayout />}>
