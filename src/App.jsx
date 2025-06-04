@@ -20,6 +20,7 @@ const Dashboard = React.lazy(() => import("./pages/Dashboard"));
 const Orders = React.lazy(() => import("./pages/Orders"));
 const Customers = React.lazy(() => import("./pages/Customers"));
 const NotFound = React.lazy(() => import("./pages/NotFound"));
+const Products = React.lazy(() => import("./pages/Products"));
 
 // Lazy-loaded auth pages
 const Login = React.lazy(() => import("./pages/Auth/Login"));
@@ -31,6 +32,7 @@ export default function App() {
     <Suspense fallback={<Loading />}>
       <Routes>
         <Route path="/admin" element={<MainLayout />}>
+          <Route path="products" element={<Products />} />
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="orders" element={<Orders />} />
           <Route path="customers" element={<Customers />} />
