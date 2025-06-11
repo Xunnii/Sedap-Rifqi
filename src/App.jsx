@@ -23,6 +23,7 @@ const NotFound = React.lazy(() => import("./pages/NotFound"));
 const Products = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 const Quotes = React.lazy(() => import("./pages/Quotes"));
+const Note = React.lazy(() => import("./pages/Note"));
 
 // Lazy-loaded auth pages
 const Login = React.lazy(() => import("./pages/Auth/Login"));
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="products" element={<Products />} />
           <Route path="products/:id" element={<ProductDetail />} />
           <Route path="quote" element={<Quotes />} />
+          <Route path="note" element={<Note />} />
 
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="orders" element={<Orders />} />

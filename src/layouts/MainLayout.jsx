@@ -6,6 +6,7 @@ import Sidebar from "../components/Sidebar";
 import { MdOutlinePerson } from "react-icons/md";
 import { AiOutlineUnorderedList } from "react-icons/ai";
 import { RiHome3Line } from "react-icons/ri";
+import { MdOutlineNote } from "react-icons/md";
 // import { MdOutlineMedicine } from "react-icons/md";
 
 const menus = [
@@ -34,7 +35,12 @@ const menus = [
     label: "Products",
     to: "/admin/products",
     icon: MdOutlinePerson,
-  }
+  },
+  {
+    label: "Note",
+    to: "/admin/note",
+    icon: MdOutlineNote,
+  },
 ];
 
 export default function MainLayout() {
