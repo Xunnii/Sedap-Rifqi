@@ -22,7 +22,7 @@ const Customers = React.lazy(() => import("./pages/Customers"));
 const NotFound = React.lazy(() => import("./pages/NotFound"));
 const Products = React.lazy(() => import("./pages/Products"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
-
+const Quotes = React.lazy(() => import("./pages/Quotes"));
 
 // Lazy-loaded auth pages
 const Login = React.lazy(() => import("./pages/Auth/Login"));
@@ -35,8 +35,8 @@ export default function App() {
       <Routes>
         <Route path="/admin" element={<MainLayout />}>
           <Route path="products" element={<Products />} />
-          <Route path="products/:id" element={<ProductDetail />} /> 
-
+          <Route path="products/:id" element={<ProductDetail />} />
+          <Route path="quote" element={<Quotes />} />
 
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="orders" element={<Orders />} />

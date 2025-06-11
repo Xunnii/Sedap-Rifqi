@@ -13,7 +13,7 @@ export default function Products() {
     useEffect(() => {
         const timeout = setTimeout(() => {
             axios.get(`https://dummyjson.com/products/search?q=${query}`)
-                .then((response) => {   
+                .then((response) => {
                     if (response.status !== 200) {
                         setError(response.data.message)
                         return
@@ -27,24 +27,24 @@ export default function Products() {
 
         return () => clearTimeout(timeout); // cleanup
     }, [query]);
-    
+
     const errorInfo = error ? (
-		    <div className="bg-red-200 mb-5 p-5 text-sm font-light text-gray-600 rounded flex items-center">
-		        <BsFillExclamationDiamondFill className="text-red-600 me-2 text-lg" />
-		        {error}
-		    </div>
+        <div className="bg-red-200 mb-5 p-5 text-sm font-light text-gray-600 rounded flex items-center">
+            <BsFillExclamationDiamondFill className="text-red-600 me-2 text-lg" />
+            {error}
+        </div>
     ) : null
     return (
         <div>
             <PageHeader title="Products" breadcrumb={breadcrumb} />
-{errorInfo}
-<input
-    type="text"
-    value={query}
-    onChange={(e) => setQuery(e.target.value)}
-    placeholder="Cari produk..."
-    className="mb-4 p-3 w-full bg-white rounded-2xl shadow-lg"
-/>
+            {errorInfo}
+            <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Cari produk..."
+                className="mb-4 p-3 w-full bg-white rounded-2xl shadow-lg"
+            />
 
             <table className="min-w-full divide-y divide-gray-200 overflow-hidden rounded-2xl shadow-lg">
                 <thead>
@@ -66,10 +66,10 @@ export default function Products() {
                                 {index + 1}.
                             </td>
                             <td className="px-6 py-4">
-    <Link to={`/products/${item.id}`} className="text-emerald-400 hover:text-emerald-500">
-        {item.title}
-    </Link>
-</td>
+                                <Link to={`/admin/products/${item.id}`} className="text-emerald-400 hover:text-emerald-500">
+                                    {item.title}
+                                </Link>
+                            </td>
                             <td className="px-6 py-4">{item.category}</td>
                             <td className="px-6 py-4">Rp {item.price * 1000}</td>
                             <td className="px-6 py-4">{item.brand}</td>
